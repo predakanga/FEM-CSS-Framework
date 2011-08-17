@@ -1,0 +1,343 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>FEM CSS Framework : Grid demo</title>
+<link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
+<link href="css/text.css" media="all" rel="stylesheet" type="text/css" />
+<link href="css/grid-16.css" media="all" rel="stylesheet" type="text/css" />
+<style type="text/css">
+	body {
+		background: #123;
+		border-top: 5px solid #000;
+		color: #333;
+		font-size: 11px;
+		padding: 20px 0 40px;
+	}
+
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	a:hover {
+		text-decoration: underline;
+	}
+
+	h1 {
+		font-family: Georgia, serif;
+		font-weight: normal;
+		text-align: center;
+		color: #fff;
+	}
+
+	h2 {
+		padding: 20px 0 0;
+		text-align: center;
+	}
+
+	p {
+		border: 1px solid #666;
+		overflow: auto;
+		padding: 10px 0;
+		text-align: center;
+	}
+
+	.background {
+		background: #fff url(img/16_col.gif) repeat;
+	}
+	
+</style>
+</head>
+<body>
+	
+	
+<h1>
+	FEM Grid System
+</h1>
+<div class="grid-centered">
+	<div class="box-16-expand background">
+		<h2>
+			16 Column Grid
+		</h2>
+		<div class="box-16-expand">
+			<div class="box-16-expand">
+				<p>
+					we can remove totally the gutter 
+				</p>
+			</div>
+		</div>
+		<div class="box-16-expand">
+			<div class="box-12-expand-right content ">
+			
+				<p>we can remove just the right gutter <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></p>
+			</div>
+	
+			<div class="box-4-expand">
+				<div class="box-4-expand-left ">
+					<p>removing also the left gutter we can close boxes together</p>
+				</div>
+		
+				<div class="box-4-expand">
+					<div class="box-2">
+						<p>we can use half gutter margin</p>
+					</div>
+
+					<div class="box-2">
+						<p>we can use half gutter margin</p>
+					</div>
+				</div>
+	
+				<div class="box-4-expand">
+					<div class="box-2-contract-left">
+						<p>or we can use full gutter margin</p>
+					</div>
+	
+					<div class="box-2-contract-right">
+						<p>or we can use full gutter margin</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="box-16-expand">
+			<div class="box-8">
+				<p>parent box</p>
+				<div class="box-4 no-margin-left">
+					<p>nested box (no margin left)</p>
+				</div>
+				<div class="box-4 no-margin-right">
+					<p>nested box (no margin-right)</p>
+				</div>
+			</div>
+		</div>
+		<div class="box-16-expand">
+			<div class="box-10-expand content push-6">
+				<p>content pushed</p>
+			</div>
+	
+			<div class="box-6-expand-right sidebar2  pull-10">
+				<p>content pulled</p>
+
+			</div>
+		</div>
+	
+		
+		<div class="box-16-expand">
+			<div class="box-16">
+				<p>
+					940
+				</p>
+			</div>
+		</div>
+		<div class="box-16-expand">
+			<div class="box-1">
+				<p>
+					40
+				</p>
+			</div>
+			<div class="box-15">
+				<p>
+					880
+				</p>
+			</div>
+		</div>
+		<div class="box-16-expand">
+			<div class="box-2">
+				<p>
+					100
+				</p>
+			</div>
+			<div class="box-14">
+				<p>
+					820
+				</p>
+			</div>
+		</div>
+		<div class="box-16-expand">
+			<div class="box-3">
+				<p>
+					160
+				</p>
+			</div>
+			<div class="box-13">
+				<p>
+					760
+				</p>
+			</div>
+		</div>
+		<div class="box-16-expand">
+			<div class="box-4">
+				<p>
+					220
+				</p>
+			</div>
+			<div class="box-12">
+				<p>
+					700
+				</p>
+			</div>
+		</div>
+		<div class="box-16-expand">
+			<div class="box-5">
+				<p>
+					280
+				</p>
+			</div>
+			<div class="box-11">
+				<p>
+					640
+				</p>
+			</div>
+		</div>
+		<div class="box-16-expand">
+			<div class="box-6">
+				<p>
+					340
+				</p>
+			</div>
+			<div class="box-10">
+				<p>
+					580
+				</p>
+			</div>
+		</div>
+		<div class="box-16-expand">
+			<div class="box-7">
+				<p>
+					400
+				</p>
+			</div>
+			<div class="box-9">
+				<p>
+					520
+				</p>
+			</div>
+		</div>
+		<div class="box-16-expand">
+			<div class="box-8">
+				<p>
+					480
+				</p>
+			</div>
+			<div class="box-8">
+				<p>
+					480
+				</p>
+			</div>
+		</div>
+		<div class="box-16-expand">
+			<div class="box-1 suffix-15">
+				<p>
+					40
+				</p>
+			</div>
+		</div>
+		<div class="box-16-expand">
+			<div class="box-1 prefix-1 suffix-14">
+				<p>
+					40
+				</p>
+			</div>
+		</div>
+		<div class="box-16-expand">
+			<div class="box-1 prefix-2 suffix-13">
+				<p>
+					40
+				</p>
+			</div>
+		</div>
+		<div class="box-16-expand">
+			<div class="box-1 prefix-3 suffix-12">
+				<p>
+					40
+				</p>
+			</div>
+		</div>
+		<div class="box-16-expand">
+			<div class="box-1 prefix-4 suffix-11">
+				<p>
+					40
+				</p>
+			</div>
+		</div>
+		<div class="box-16-expand">
+			<div class="box-1 prefix-5 suffix-10">
+				<p>
+					40
+				</p>
+			</div>
+		</div>
+		<div class="box-16-expand">
+			<div class="box-1 prefix-6 suffix-9">
+				<p>
+					40
+				</p>
+			</div>
+		</div>
+		<div class="box-16-expand">
+			<div class="box-1 prefix-7 suffix-8">
+				<p>
+					40
+				</p>
+			</div>
+		</div>
+		<div class="box-16-expand">
+			<div class="box-1 prefix-8 suffix-7">
+				<p>
+					40
+				</p>
+			</div>
+		</div>
+		<div class="box-16-expand">
+			<div class="box-1 prefix-9 suffix-6">
+				<p>
+					40
+				</p>
+			</div>
+		</div>
+		<div class="box-16-expand">
+			<div class="box-1 prefix-10 suffix-5">
+				<p>
+					40
+				</p>
+			</div>
+		</div>
+		<div class="box-16-expand">
+			<div class="box-1 prefix-11 suffix-4">
+				<p>
+					40
+				</p>
+			</div>
+		</div>
+		<div class="box-16-expand">
+			<div class="box-1 prefix-12 suffix-3">
+				<p>
+					40
+				</p>
+			</div>
+		</div>
+		<div class="box-16-expand">
+			<div class="box-1 prefix-13 suffix-2">
+				<p>
+					40
+				</p>
+			</div>
+		</div>
+		<div class="box-16-expand">
+			<div class="box-1 prefix-14 suffix-1">
+				<p>
+					40
+				</p>
+			</div>
+		</div>
+		<div class="box-16-expand">
+			<div class="box-1 prefix-15">
+				<p>
+					40
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
